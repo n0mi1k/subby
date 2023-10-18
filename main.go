@@ -28,6 +28,15 @@ var (
 	yellow  = "\033[33m"
 	lcyan   = "\033[96m"
 	reset   = "\033[0m"
+	subbyArt = lcyan + `
+    ____  _     ____  ____ ___  _
+   / ___\/ \ /\/  _ \/  _ \\  \//
+   |    \| | ||| | //| | // \  / 
+   \___ || \_/|| |_\\| |_\\ / /  
+   \____/\____/\____/\____//_/ v1.0
+
+        github.com/n0mi1k   				  
+	` + reset
 )
 
 
@@ -196,7 +205,7 @@ type args struct {
 
 
 func (args) Description() string {
-	return "An uber fast next-generation subdomain enumeration toolkit"
+	return subbyArt
 }
 
 
@@ -219,15 +228,6 @@ func main() {
 
 	wordlist := readWordlist(wordfile)
 
-	subbyArt := lcyan + `
-    ____  _     ____  ____ ___  _
-   / ___\/ \ /\/  _ \/  _ \\  \//
-   |    \| | ||| | //| | // \  / 
-   \___ || \_/|| |_\\| |_\\ / /  
-   \____/\____/\____/\____//_/ v1.0
-
-        github.com/n0mi1k   				  
-	` + reset
 	fmt.Println(subbyArt)
 
 	fmt.Println(lgreen + "[+] Target Domain: " + reset + url)
