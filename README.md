@@ -43,7 +43,7 @@ Web Enumeration (20 Threads, 200ms Delay, 5s Max Request Timeout, Show Codes 200
 `./subby -u https://<domain> -w </path/to/wordlist> -t 20 -d 200 -s 5 -r "200,301" -o results.txt`
 
 ## Wildcard DNS Records
-A wildcard DNS record answers DNS requests for any subdomain isn't defined. Some domains has this configured which makes subdomain enumeration tedious, as invalid subdomains still receives an answer. Subby automatically detects for wildcard DNS records and filters out false positives, accuraetely displaying valid and existing subdomains.
+A wildcard DNS record answers DNS requests for any subdomain isn't defined. Some domains has this configured which makes subdomain enumeration tedious, as invalid subdomains still receives an answer. Subby automatically detects for wildcard DNS records and filters out false positives, accurately displaying valid and existing subdomains.
 
 ## Disclaimer
 This tool is for educational and testing purposes only. Do not use it to exploit the vulnerability on any system that you do not own or have permission to test. The authors of this script are not responsible for any misuse or damage caused by its use.
