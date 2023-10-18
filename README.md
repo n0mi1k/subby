@@ -2,7 +2,7 @@
 An uber fast subdomain enumeration tool that automatically detects for wildcard DNS records and excludes invalid subdomains from results. Features enumeration modes with DNS or HTTP(S).
 
 ## Features
-<img width="448" alt="image" src="https://github.com/n0mi1k/subby/assets/28621928/53baec4a-6bf0-4bed-9f06-9e492c617192">
+<img width="459" alt="image" src="https://github.com/n0mi1k/subby/assets/28621928/1ee5deba-85a7-4b1a-9158-53af17718b7e">
 
 **Usage is simple, choose from the 2 enumeration modes below:**
 
