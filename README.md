@@ -34,6 +34,7 @@ FLAGS:
    -s, --timeout     Maximum timeout in seconds for web requests (Default 2s)
    -o, --output      Output filename to save results
 ```
+Using `-d` to set a delay is highly recommended to avoid getting blocked or affecting your DNS queries. 
 
 ## Advance Usage Examples
 DNS Enumeration (100 Threads, 200ms Delay, Output to results.txt):  
