@@ -1,6 +1,8 @@
 # subby
 An uber fast subdomain enumeration tool that automatically detects for wildcard DNS records and excludes invalid subdomains from results. Features enumeration modes with DNS or HTTP(S).
 
+**Featured on BHEH:** https://www.blackhatethicalhacking.com/tools/subby/
+
 ## Features
 <img width="459" alt="image" src="https://github.com/n0mi1k/subby/assets/28621928/1ee5deba-85a7-4b1a-9158-53af17718b7e">
 
@@ -18,6 +20,12 @@ An uber fast subdomain enumeration tool that automatically detects for wildcard 
 Subby requires Go 1.18 and above to install successfully. To install, just run the below command or download pre-compiled binary from the [release page](https://github.com/n0mi1k/subby/releases/).
 ```
 go install github.com/n0mi1k/subby@latest
+```
+If your Go binaries are not added to PATH on Kali, do this:
+```bash
+nano ~/.zshrc
+export PATH="$PATH:/home/kali/go/bin"
+source ~/.zshrc
 ```
 
 ## Options
