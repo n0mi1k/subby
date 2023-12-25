@@ -4,7 +4,7 @@ An uber fast subdomain enumeration tool that automatically detects for wildcard 
 **Featured on BHEH:** https://www.blackhatethicalhacking.com/tools/subby/
 
 ## Features
-<img width="459" alt="image" src="https://github.com/n0mi1k/subby/assets/28621928/1ee5deba-85a7-4b1a-9158-53af17718b7e">
+<img width="451" alt="image" src="https://github.com/n0mi1k/subby/assets/28621928/ad2834a4-bd98-4851-9df9-400ac26bcc80">
 
 **Usage is simple, choose from the 2 enumeration modes below:**
 
