@@ -1,7 +1,5 @@
 # subby
-An uber fast subdomain enumeration tool that automatically detects for wildcard DNS records and excludes invalid subdomains from results. Features enumeration modes with DNS or HTTP(S).
-
-**Featured on BHEH:** https://www.blackhatethicalhacking.com/tools/subby/
+A fast subdomain enumeration tool that **automatically detects for wildcard DNS records** and excludes invalid subdomains from results. Features enumeration modes with DNS or HTTP(S).
 
 ## Features
 <img width="451" alt="image" src="https://github.com/n0mi1k/subby/assets/28621928/ad2834a4-bd98-4851-9df9-400ac26bcc80">
